@@ -50,16 +50,17 @@ local plugins = {
     lazy = true,
     ft = "markdown",
     dependencies = {
-      -- Required. "nvim-lua/plenary.nvim",
+      "nvim-lua/plenary.nvim",
     },
     opts = {
       workspaces = {
         {
           name = "personal",
-          path = "~/Library/Mobile Documents/iCloud~md~obsidian/Documents/main-vault",
+          path = "~/Sync/Obsidan/main-vault/",
         },
       },
     },
+    mappings = {},
   },
   {
     "ggandor/leap.nvim",

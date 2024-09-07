@@ -4,7 +4,7 @@ local capabilities = require("plugins.configs.lspconfig").capabilities
 local lspconfig = require "lspconfig"
 
 -- if you just want default config for the servers then put them in a table
-local defaultServers = { "html", "cssls", "tsserver", "clangd", "jdtls", "rust_analyzer"}
+local defaultServers = { "html", "cssls", "tsserver", "clangd", "jdtls", "rust_analyzer", "volar"}
 
 for _, lsp in ipairs(defaultServers) do
   lspconfig[lsp].setup {
